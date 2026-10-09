@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<title>prva w s
+</title>
+<meta charset="utf-8">
+</head>
+<body bgcolor="lightgreen" text="red" leftmargin=129pt>
+<font size=15><p align="right">prvi pasus, nastavak pasusa čćšđž</p></font>
+<p><a href="#link1">drugi </a>pasusAko se redovno sortiraju podaci u tabeli po jednoj istoj koloni ili kolonama potrebno je
+napraviti indeks za tu kolonu ili te kolone. Indeks je interna tabela vrednosti koja održava
+red, odnosno redosled zapisa. Na ovaj način, kada je potrebno da se sortiraju podaci ili
+kada je potrebno da se određeni podatak pronađe brzo MySQL može da vrši pretraživanje
+po indeks ključevima po poznatom redosledu, što je bolje od sekvencijalnog pretraživanja
+po podacima.
+Pravljenje indeksa usporava unošenje podataka; svaki novi zapis, obrisani zapis ili
+promena vrednosti u indeksiranoj koloni zahteva promenu indeksa. Indeksirane kolone
+treba koristiti samo onda kada su stvarno neophodne.
+KEY (ključ) je normalno sinonim za INDEX (indeks) i znači da će zadata kolona (ili kolone)
+biti indeksirana. Indeksi se koriste da bi se brzo pronašli redovi sa određenom vrednošću u
+koloni. Atribut PRIMARY KEY se može specificirati i kao KEY kada je dat u definiciji
+kolone.</p>
+<h1>primer slike sa okvirom koja je poravnata uz tag p</h1>
+<p align="right" >
+<img src="D:\slikebp\s1.jpg" width="100px" height="100px" border=2 align=center>
+</p>
+<p>OSOBINA UNIQUE
+UNIQUE (jedinstveni) indeks kreira ograničenje takvo da sve vrednosti u indeksu
+(odnosno koloni koja je indeksirana) moraju biti različite. Ukoliko korisnik pokuša da doda
+novi red u tabelu koji ima istu vrednost u koloni za koju je definisan UNIQUE indeks kao
+neki drugi red javiće se greška. Ovo ograničenje se ne odnosi na NULL vrednosti sem za
+BDB mašine za smeštanje podataka. Za ostale mašine za smeštanje podataka UNIQUE
+indeks dozvoljava višestruke NULL vrednosti za kolone koje mogu sadržati NULL
+vrednosti.</P>
+PRIMARY KEY (primarni ključ) je jedinstveni indeks gde sve kolone ključa moraju biti
+definisane kao NOT NULL. Ako nisu eksplicitno deklarisane kao NOT NULL, MySQL ih
+deklariše implicitno. Tabela može imati samo jedan primarni ključ. Na ovaj način se
+postavlja ograničenje nad tabelom. To znači da se upisom novog zapisa u kolonu koja je
+primarni ključ ne sme upisati vrednost koja već postoji. Za kolonu (ili kolone) koja je
+primarni ključ se automatski formira indeks.
+<p id="link1">U kreiranoj tabeli primarni ključ je smešten kao prvi, zatim dolaze svi UNIQUE (jedinstveni)
+indeksi i na kraju svi nejedinstveni indeksi.</p>
+<hr size=17px  align="center" color="blue" style="width:3cm;background-color:lightblue1">&euro; &#8364
+<h1 style="width:3cm;background-color:lightblue">primer podliste unutar liste</h1>
+<ol start=1 reversed type="a">
+<li>voce
+	<ul type="square">
+		<li>nar
+		<li>smokva
+	</ul>
+<li>povrce
+	<ul type="circle">
+		<li>kupus
+		<li>britva
+	</ul>
+<li>juzno voce
+	<ul>
+		<li>nar
+		<li>banana
+	</ul>
+</ol>
+<hr size=17px  width="15cm" align="center" color="red">
+<a href="http:\\www.blic.rs">blic</a>
+<audio controls autoplay>
+	<source src="D:\skola\nastava\dnevnepripreme\IVrazred\html_2019\html_2018\lanemoje.mp3" type="audio/mp3">
+Ако видите овај текст, онда ваш прегледач не подржава.
+</audio>
+<video controls autoplay muted>
+	<source src="C:\Users\PC\Documents\Untitled\Video\czbari.mp4" type="video/mp4">
+</video>
+<iframe src="https://www.youtube.com/embed/s9KCMku_StY?li st=PLWXhVV6d5_uXFh9vOfagoU4FzJJlV3oWz" autoplay width="500px">
+</iframe>
+<a href="druga.html">druga</a>
+</body>
+</html>
